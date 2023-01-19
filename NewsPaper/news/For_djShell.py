@@ -3,7 +3,7 @@ from news.models import *
 # 1) Создать двух пользователей
 u1 = User.objects.create_user(username='Stanley')
 u2 = User.objects.create_user(username='Stayer')
-# Создатдим еще двух пользователей
+# Создадим еще двух пользователей
 u3 = User.objects.create_user(username='Bosch')
 u4 = User.objects.create_user(username='Pegeout')
 # -- Выведем всех пользователей)
