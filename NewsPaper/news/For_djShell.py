@@ -17,7 +17,7 @@ Author.objects.create(authorUser=u2)
 # Author.objects.create(authorUser=u3)
 # Author.objects.create(authorUser=u4)
 # -- Выведем всех авторов
-Author.objects.all().values('authorUser'
+Author.objects.all().values('authorUser')
 
 # 3) Добавить 4 категории в модель Category.
 Category.objects.create(name='IT')
